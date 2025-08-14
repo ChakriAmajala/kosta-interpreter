@@ -3,7 +3,7 @@ package interpreter;
 import com.github.konstantinevashalomidze.interpreter.Main;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Test; fff
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
