@@ -3,7 +3,7 @@ package interpreter;
 import com.github.konstantinevashalomidze.interpreter.Main;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test; fff
+import org.junit.jupiter.api.Test; 
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -65,7 +65,7 @@ public class MainTest {
         // Act
         Main.main(new String[]{});
 
-        // Assert
+        // Asserts
         String output = outputStream.toString();
         assertTrue(output.contains("Hello Guest"));
 
